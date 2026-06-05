@@ -4,7 +4,7 @@
 </template>
 
 <script setup>
-import Son2 from '@/components/Son2.vue'
+import Son2 from './Son2.vue'
 const getMsg = (val) => {
   console.log('子传的普通值：', val)
 }

@@ -8,7 +8,7 @@
 </template>
 <script setup>
 import { ref } from 'vue'
-import Son from '../components/Son.vue' // 引入子组件
+import Son from './Son.vue' // 引入子组件
 
 // 要传给子的 普通变量
 const msg = ref('我是父组件的消息')

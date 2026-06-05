@@ -9,6 +9,7 @@
     <el-menu-item index="/vue2">学习vue2</el-menu-item>
     <el-menu-item index="/routerDemo">路由测试</el-menu-item>
     <el-menu-item index="/pinia">Pinia</el-menu-item>
+    <el-menu-item index="/PropsDemo">组件通信</el-menu-item>
   </el-menu>
   <router-view />
 </template>

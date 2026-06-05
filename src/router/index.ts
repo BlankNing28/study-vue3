@@ -6,6 +6,7 @@ import Vue3 from '../views/Vue3.vue'
 import Pinia from '../views/Pinia.vue'
 import ParamsDemo from '../components/routerChild/params.vue'
 import RouterDemo from '../views/RouterDemo.vue'
+import PropsDemo from '../views/PropsDemo.vue'
 import { routerChild } from './children.ts'
 
 
@@ -44,6 +45,11 @@ const routes = [
     path: '/pinia',
     name: 'pinia',
     component: Pinia
+  },
+  {
+    path: '/propsDemo',
+    name: 'propsDemo',
+    component: PropsDemo
   },
 ]
 

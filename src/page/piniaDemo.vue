@@ -23,5 +23,10 @@ import { storeToRefs} from 'pinia'
         countStore.increment(10)
     }
 
+    // 监听pinia方法
+    countStore.$subscribe((mutation, state) => {
+        console.log(mutation, state)
+    })
+
 
 </script>
